@@ -1,0 +1,55 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Django stuff:
+*.log
+*.pot
+*.mo
+*.sqlite3 # Default SQLite database file
+*.db.sqbpro
+media/    # User-uploaded files
+static/   # Collected static files (from collectstatic)
+
+# Environment variables file (adjust the name if you use a different one)
+.env
+*.env
+.env.local # Common for Create React App and other frontend setups
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Node.js and React stuff:
+node_modules/
+build/ # Default build output directory for Create React App
+dist/ # Common alternative build output directory
+npm-debug.log*
+yarn-error.log*
+.parcel-cache/ # If using Parcel bundler
+coverage/ # If using code coverage tools
+
+# IDEs and editors
+.idea/ # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Python specific
+dist/ # Already covered by Node.js build, but good to keep
+build/ # Already covered by Node.js build, but good to keep
+*.egg-info/
+
+# Testing and coverage
+.coverage
+htmlcov/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Any other local configuration files you might have
+# local_settings.py # If you use a separate local settings file
+
