@@ -6,8 +6,8 @@ __pycache__/
 *.log
 *.pot
 *.mo
-*.sqlite3 # Default SQLite database file
-*.db.sqbpro
+db.sqlite3 # Default SQLite database file
+db.sqbpro
 media/    # User-uploaded files
 static/   # Collected static files (from collectstatic)
 
@@ -53,3 +53,4 @@ htmlcov/
 # Any other local configuration files you might have
 # local_settings.py # If you use a separate local settings file
 
+.gitignore
