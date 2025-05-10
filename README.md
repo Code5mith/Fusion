@@ -2,6 +2,8 @@
 
 ## Economic Data Visualizer (Django + React)Project Description
 
+![Screenshot 2025-05-10 134710](https://github.com/user-attachments/assets/064d0e17-3244-479a-8dc3-eafad57eae61)
+
 This project is a web application designed to provide interactive data visualizations for key economic indicators across major global economies. The application is structured with a Django backend, responsible for data handling, API provision, and a React frontend, which consumes the API to render dynamic and interactive charts and graphs.
 
 The initial focus of this application is on visualizing Consumer Price Index (CPI) and unemployment rate data for four significant economic regions: the United States, the European Union, Japan, and the Canada.
